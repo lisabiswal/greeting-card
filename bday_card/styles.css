@@ -1,0 +1,52 @@
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+body{
+    background-color: rgb(157, 218, 202);
+    font-family: "Happy Monkey", system-ui;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+h2,h4{
+    background-color: rgb(151, 87, 4); 
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-bottom: 1px;
+    border: 1px solid black;
+ 
+}
+.flo_date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    font-weight: lighter;
+}
+.image{
+    border: 8px solid white;
+    background-image: url("giftt.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image:hover{
+    background-image: url("happy.webp");
+}
+.h1:hover{
+    color: black;
+}
+.h2:hover{
+    color: black;
+}
+.h4:hover{
+    color: black;
+}
+
